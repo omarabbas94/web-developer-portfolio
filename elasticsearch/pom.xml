@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  
+  <parent>
+    <artifactId>asc</artifactId>
+    <groupId>com.bah.na.asc</groupId>
+    <relativePath>../../</relativePath>
+    <version>0.0.4-SNAPSHOT</version>
+  </parent>
+  
+  <artifactId>asc-service-elasticsearch-parent</artifactId>
+  <name>ASC - Elasticsearch Parent POM</name>
+  <description>Elasticsearch</description>
+  <packaging>pom</packaging>
+
+  <!-- add your new plugin here, as well as to a profile in bundle/pom.xml. 
+    Make sure to add rest services packages to web.xml -->
+  <modules>
+    <module>scanner</module>
+  </modules>
+
+</project>

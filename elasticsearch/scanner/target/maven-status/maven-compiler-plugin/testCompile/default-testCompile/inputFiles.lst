@@ -1,0 +1,3 @@
+/home/omar/ASC/asc/services/elasticsearch/scanner/src/test/java/com/bah/na/asc/services/elasticsearch/scanner/PostNearExpiredRecordsTest.java
+/home/omar/ASC/asc/services/elasticsearch/scanner/src/test/java/com/bah/na/asc/services/elasticsearch/scanner/ElasticsearchIT.java
+/home/omar/ASC/asc/services/elasticsearch/scanner/src/test/java/com/bah/na/asc/services/elasticsearch/scanner/IdentifyNearExpiredRecordsTest.java

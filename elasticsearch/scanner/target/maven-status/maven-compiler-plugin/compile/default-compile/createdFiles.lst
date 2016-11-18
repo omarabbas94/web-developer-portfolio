@@ -1,0 +1,5 @@
+com/bah/na/asc/services/elasticsearch/scanner/PostNearExpiredRecords.class
+com/bah/na/asc/services/elasticsearch/scanner/RecordMetadata.class
+com/bah/na/asc/services/elasticsearch/scanner/IdentifyNearExpiredRecords.class
+com/bah/na/asc/services/elasticsearch/scanner/ESConnection.class
+com/bah/na/asc/services/elasticsearch/scanner/ESRecordManager.class

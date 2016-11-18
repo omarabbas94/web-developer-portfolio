@@ -1,0 +1,53 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>asc-service-elasticsearch-parent</artifactId>
+		<groupId>com.bah.na.asc</groupId>
+		<relativePath>../</relativePath>
+		<version>0.0.4-SNAPSHOT</version>
+	</parent>
+	<artifactId>asc-service-elasticsearch-scanner</artifactId>
+	<name>ASC - Elasticsearch Scanner</name>
+	<description>A Elasticsearch library for managing records</description>
+	<packaging>jar</packaging>
+	<properties>
+	  <!-- <avro.version>1.7.6</avro.version> -->
+	</properties>
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/javax.servlet/servlet-api -->
+		<!-- Used to get HttpServletRequest in DataIngestService.java -->
+		<!--
+		<dependency>
+			<groupId>com.bah.na.asc</groupId>
+			<artifactId>asc-core</artifactId>
+		</dependency>
+		-->
+		
+		<dependency>
+			<groupId>com.bah.na.asc</groupId>
+			<artifactId>asc-core-system</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.bah.na.asc</groupId>
+			<artifactId>asc-test-common</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.elasticsearch</groupId>
+			<artifactId>elasticsearch</artifactId>
+            <version>${elasticsearch.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.glassfish.jersey.containers</groupId>
+			<artifactId>jersey-container-servlet</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.glassfish.jersey.media</groupId>
+			<artifactId>jersey-media-json-jackson</artifactId>
+		</dependency>
+		
+	</dependencies>
+	<build>
+	  <plugins>
+	  </plugins>
+	</build>
+</project>
