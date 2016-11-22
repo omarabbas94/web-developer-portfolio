@@ -1,0 +1,5 @@
+/home/omar/ASC/asc/services/elasticsearch/scanner/src/main/java/com/bah/na/asc/services/elasticsearch/scanner/RecordMetadata.java
+/home/omar/ASC/asc/services/elasticsearch/scanner/src/main/java/com/bah/na/asc/services/elasticsearch/scanner/ESRecordManager.java
+/home/omar/ASC/asc/services/elasticsearch/scanner/src/main/java/com/bah/na/asc/services/elasticsearch/scanner/PostNearExpiredRecords.java
+/home/omar/ASC/asc/services/elasticsearch/scanner/src/main/java/com/bah/na/asc/services/elasticsearch/scanner/ESConnection.java
+/home/omar/ASC/asc/services/elasticsearch/scanner/src/main/java/com/bah/na/asc/services/elasticsearch/scanner/IdentifyNearExpiredRecords.java
