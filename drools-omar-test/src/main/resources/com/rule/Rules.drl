@@ -1,0 +1,16 @@
+package com.rule
+
+import com.javainuse.model.Product
+
+rule "Offer for Omar's house"
+	when 
+		productObject: Product(type=="Omar's house")
+	then
+		productObject.setDiscount(15);
+	end
+rule "Offer for Omar's car"
+	when 
+		productObject: Product(type=="Omar's car")
+	then
+		productObject.setDiscount(25);
+	end
